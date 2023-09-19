@@ -1,2 +1,2 @@
-1st file 1st line(edited in feature).
+new line added
 This is  new line in feature branch

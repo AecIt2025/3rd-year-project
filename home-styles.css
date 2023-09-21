@@ -259,6 +259,7 @@
 
   .inside-testimonials {
     display: flex;
+    margin-bottom: 48px;
   }
   .inside-testimonials p {
     width: 50%;
@@ -285,33 +286,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position:relative;
     margin-top: 64px;
     gap: 128px 64px;
   }
   .testimonial-container {
     max-width: 39%;
-    padding: 48px;
-    background-color: white;
+    padding: 0 48px 48px 48px;
+    background-color: rgb(255,255,255);
     border-radius: 18px;
     z-index: 10;
   }
   .profile-photo {
-    position: absolute;
-    top: -40px;
+    margin-top: -40px;
     border-radius: 16px;;
-  }
-  .photo1 {
-    top: -40px;
-  }
-  .photo2 {
-    top: -40px;
-  }
-  .photo3 {
-    top: 54.2%;
-  }
-  .photo4 {
-    top: 54.2%;
   }
   .container1 {
     box-shadow: 58px 58px 98px rgb(234, 234, 237);
@@ -332,6 +319,7 @@
     font-weight: 600;
     line-height: 27px;
     color: rgb(3,0,0);
+    margin-top: 24px;
   }
 
   .testimonial-name {

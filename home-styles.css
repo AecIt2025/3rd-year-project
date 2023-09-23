@@ -78,7 +78,7 @@
   }
   
   .hero-video {
-    background-image: url(/images/hero-section.jpeg);
+    background-image: url(images/hero-section.jpeg);
     width: 1240px;
     height: 400px;
     background-repeat: no-repeat;
@@ -177,8 +177,8 @@
 
   .course-list {
     display: flex;
-    background-image: url('/images/online-programming-courses-section-bg.svg'),
-                      url('/images/online-coding-course-dots-bg.png');
+    background-image: url(images/online-programming-courses-section-bg.svg),
+                      url(images/online-coding-course-dots-bg.png);
     background-position: bottom right,
                          right 20px;
     background-repeat: no-repeat;

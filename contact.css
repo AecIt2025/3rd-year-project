@@ -9,11 +9,11 @@ html {
 }
 body {
   font-family: "Poppins";
-  color: white;
+  color: black;
 }
 .first-bg {
   background-image: url("photos/background.svg");
-  height: 132vh;
+  height: 105vh;
   width: 100%;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -76,251 +76,121 @@ header {
 
 /* <----- About Us Section -----> */
 .About-container {
+  background-color: white;
+  display: flex;
+  margin: 4rem 3rem;
+  height: 95vh;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.map i {
+  margin-right: 1.5rem;
+  width: 52px;
+  height: 52px;
+  font-size: 16px;
+  padding: 16px;
+  border-width: 2px;
+  border-radius: 26px;
+  color: #1579e6;
+  border: 3px solid #1579e6;
+  text-align: center;
+}
+.map-content span {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.map-content p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact-container {
+  width: 50%;
+  height: 100%;
+  background: rgb(244 244 244);
+  padding: 3rem;
   display: flex;
   flex-direction: column;
-  width: 85vw;
-  flex-wrap: wrap;
-  margin: auto;
-  margin-top: 6%;
+  justify-content: space-between;
+  border-bottom-left-radius: 15px;
 }
-#about-title {
-  font-size: 1.8rem;
+#contact {
+  color: #576168;
+}
+.map {
+  display: flex;
+}
+.map-content {
+  display: flex;
+  flex-direction: column;
+}
+.social-logo {
+  width: 30%;
+  color: #030000;
+  display: flex;
+  justify-content: space-between;
+}
+.social-logo i {
+  color: #030000;
+}
+.social-logo i:hover{
+  color: #1579e6;
+}
+.contact-right {
+  width: 50%;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}
+h1 {
+  font-size: 3.1rem;
   font-weight: 600;
-  text-align: center;
 }
-#about-info p {
-  padding: 1rem 3.5rem;
-  text-align: center;
+.contact-right div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+}
+.inputs span {
+  color: #576168;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.contact-right input,
+textarea {
+  height: 2.5rem;
+  padding: 1rem;
+  font-family: "Rubik";
+  font-size: 1rem;
+  width: 100%;
+}
+#msg {
+  height: 8rem;
+}
+.send {
+  width: 40%;
   margin: 1rem 1rem;
+  background-color: #1579e6;
 }
-#about-video {
-  position: relative;
-  margin-top: 5px;
-  height: 714px;
+.send:hover {
+  color: black;
+  background-color: rgb(247, 181, 0);
 }
-#about-video img {
+strong {
+  color: red;
+}
+.map-container {
+  width: 100%;
+  height: 80vh;
+}
+.map-container iframe {
   width: 100%;
   height: 100%;
-  border-radius: 16px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.video-play {
-  position: absolute;
-  size: 64px;
-  border-radius: 50%;
-  padding: 20px 25px;
-  background: #f7b500;
-  left: 50%;
-  top: 50%;
-}
-
-/* <----- Comment section -----> */
-.comment {
-  height: 80vh;
-  width: 100%;
-  padding: 120px 40px 64px;
-}
-.comment-container {
-  display: flex;
-  color: black;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 0 40px;
-  height: 54vh;
-  width: 100%;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-.quote {
-  font-size: 37px;
-  color: #1579e6;
-}
-.comment-container div h3 {
-  padding: 20px 65px;
-  margin-bottom: 20px;
-  font-size: 1.6rem;
-  line-height: 1.5em;
-  font-weight: 600;
-}
-hr {
-  margin: auto;
-  margin-bottom: 30px;
-  width: 5%;
-}
-.comment-container div h5 {
-  font-size: 1rem;
-}
-#founder {
-  font-size: 14px;
-  line-height: 1.4rem;
-  color: #576168;
-}
-
-/* <----- Numbers Talk -----> */
-.count {
-  height: 52vh;
-  width: 100%;
-  padding: 5rem 2rem;
-  font-weight: 600;
-}
-.count-container {
-  display: flex;
-  color: black;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 3rem;
-  margin-left: auto;
-}
-.count-container h3 {
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 1.5;
-}
-.count-container-box {
-  display: flex;
-  align-items: center;
-  font-size: 1.8rem;
-  font-family: "Rubik";
-  justify-content: center;
-}
-.count-container p {
-  color: #576168;
-  font-weight: 400;
-  line-height: 2.5;
-}
-
-/* <----- Vision $ Mission -----> */
-.description {
-  height: 43rem;
-  width: 100%;
-  font-family: "Rubik";
-}
-.description-container {
-  display: flex;
-  flex-direction: column;
-  color: black;
-  margin: 1rem;
-  margin-right: 2rem;
-}
-.vision {
-  display: flex;
-  margin: 0rem 1.5rem 2rem;
-  padding: 0 0 6rem;
-  border-style: solid;
-  border-width: 0 0 1px;
-}
-.vision #heading {
-  width: 74rem;
-}
-.mission #heading {
-  width: 77.7rem;
-}
-.vision-description {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-right: 2rem;
-}
-.vision-description h4 {
-  margin-bottom: 1rem;
-  font-weight: 500;
-  line-height: 1.6em;
-}
-.mission {
-  border-style: none;
-}
-#heading p {
-  font-size: 0.72rem;
-  line-height: 1.7;
-  font-weight: 600;
-}
-.vision-description p {
-  color: #576168;
-  line-height: 1.5;
-}
-.tick-content {
-  display: flex;
-  padding-top: 3rem;
-}
-.right-content {
-  width: 50%;
-}
-.right-content span,
-.left-content span {
-  padding-left: 1rem;
-  font-size: 0.9rem;
-}
-.fa-circle-check {
-  color: #1579e6;
-}
-.right-content ul,
-.left-content ul {
-  line-height: 1.89;
-}
-
-/* <----- Instructors -----> */
-.instructors {
-  margin-top: 1rem;
-  height: 40rem;
-  width: 100%;
-  color: black;
-  padding: 80px 40px;
-}
-.instructors-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 30rem;
-  width: 100%;
-}
-.container {
-  display: flex;
-}
-.instructor {
-  height: 21rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem;
-}
-.instructor img {
-  width: 100%;
-  border-radius: 50%;
-}
-.social-links {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-}
-h6 {
-  letter-spacing: 3px;
-  line-height: 1.25em;
-  font-size: 0.78rem;
-  font-weight: 600;
-}
-.instructors-container h2 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  line-height: 1.3;
-}
-.instructors-container p {
-  font-size: 14px;
-  color: #576168;
-  line-height: 2;
-}
-.instructor h5 {
-  line-height: 1.6;
-  font-size: 1.2em;
-}
-
-/* <----- Subscribe -----> */
-/* 'shared css' copy */
 .subscribe {
   background-image: url(photos/main-background-flip.png);
   background-position: bottom left;
@@ -328,6 +198,7 @@ h6 {
   top: -48px;
   text-align: center;
   padding: 10px;
+  color: white;
 }
 .subscribe .popularity::before {
   display: none;
@@ -355,8 +226,6 @@ h6 {
   margin: 32px auto 0 auto;
 }
 
-/* <----- Info -----> */
-/* 'shared css' copy */
 footer {
   background-color: rgb(3, 0, 0);
   padding: 100px 30px 50px 30px;
@@ -438,4 +307,3 @@ footer {
   line-height: 26px;
   color: white;
 }
-/* <----- End -----> */

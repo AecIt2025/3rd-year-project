@@ -1,0 +1,77 @@
+.hero-heading {
+    padding-top: 40px;
+    font-family: Poppins;
+    text-align:center;
+    color:white;
+    font-size: 28px;
+}
+.hero-description {
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    line-height: 33.4286px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.courses-container {
+    margin: 100px;
+    
+}
+.courses-tiles {
+    display:flex;
+    gap:20px;
+
+}
+.courses-heading {
+    font-family: Poppins;
+    font-size: 24px;
+}
+.tile1 {
+    border: 2px solid rgb(135, 135, 135);
+    border-radius: 5px;
+    width: 400px;
+    height:auto;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 5px;
+}
+.tile2 {
+    border: 2px solid rgb(135, 135, 135);
+    border-radius: 5px;
+    width: 400px;
+    height:auto;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 5px;
+}
+.tile3 {
+    border: 2px solid rgb(135, 135, 135);
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 5px;
+}
+.tile1-button {
+    border: 2px solid rgb(87, 87, 182);
+    border-radius: 5px;
+    background-color: rgb(87, 87, 182);
+    color:white;
+    text-align: center;
+}
+.tile2-button {
+    border: 2px solid rgb(87, 87, 182);
+    border-radius: 5px;
+    background-color: rgb(87, 87, 182);
+    color:white;
+    text-align: center;
+}
+.tile3-button {
+    border: 2px solid rgb(87, 87, 182);
+    border-radius: 5px;
+    background-color: rgb(87, 87, 182);
+    color:white;
+    text-align: center;
+}

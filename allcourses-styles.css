@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    transition: color 1.3s ease;
+}
+.hero-header {
+    height: 480px;
+    position: relative;
+}
+.hero-text {
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 32px;;
+}
+.hero-description {
+    width: 50%;
+    margin: 32px auto;
+}
+.featured-courses {
+    margin: 64px 24px;
+    height: 600px;
+}
+.featured-courses h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgb(3, 0, 0);
+    text-transform: capitalize;
+    margin: 64px 0 24px  0;
+    padding: 20px 20px 20px 0px;
+}
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.course-container {
+    width: 32%;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 204, 207);
+}
+.course-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.text-container {
+    padding: 16px;
+}
+.text-container h2 {
+    margin: 0 0 18px 0;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    color: rgb(3,0,0);
+}
+.text-container button {
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+    background-color: #428BCA;
+    border-radius: 4px;
+}
+.text-container button:hover {
+    background-color: #3873a7;
+    transition: color 1.3s ease;
+}
+
+.reviews {
+    height: 800px;
+}
+.testimonials {
+    margin-top: 90px; 
+}
+.all-testimonials {
+    justify-content: space-between;
+    gap: 32px
+}
+.testimonial-container {
+    width: 48%;
+    box-shadow: none;
+    max-width: 50%;
+
+}
+.subscribe {
+    height: 600px;
+}
+.subscribe .hero-text {
+    padding: 0;
+}

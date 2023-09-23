@@ -13,7 +13,7 @@ body {
 }
 .first-bg {
   background-image: url("photos/background.svg");
-  height: 105vh;
+  height: 748px;
   width: 100%;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -74,14 +74,22 @@ header {
   background-color: white;
 }
 
+
+
 /* <----- About Us Section -----> */
 .About-container {
   background-color: white;
   display: flex;
-  margin: 4rem 3rem;
-  height: 95vh;
+  margin: 78px auto 32px auto;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  width: 96%;
+  max-width: 1240px;
+  z-index: 20;
+}
+.map {
+  border-bottom: 1px solid rgb(87, 97, 104);
+  padding: 24px 0;
 }
 .map i {
   margin-right: 1.5rem;
@@ -96,22 +104,34 @@ header {
   text-align: center;
 }
 .map-content span {
-  font-size: 0.72rem;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
   font-weight: 600;
+  line-height: 16.25px;
 }
 .map-content p {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.5px;
 }
 .contact-container {
   width: 50%;
   height: 100%;
-  background: rgb(244 244 244);
+  background: white;
   padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-bottom-left-radius: 15px;
+  margin-bottom: 32px;
+}
+
+#follow {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.25px;
+  margin: 16px 0 24px;
 }
 #contact {
   color: #576168;
@@ -128,6 +148,7 @@ header {
   color: #030000;
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 .social-logo i {
   color: #030000;
@@ -137,13 +158,13 @@ header {
 }
 .contact-right {
   width: 50%;
-  height: 100%;
-  margin-top: 0.5rem;
+  height: 100%; 
   padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: black;
+  box-shadow: -20px 12px 64px -16px rgb(224, 224, 224);
 }
 h1 {
   font-size: 3.1rem;
@@ -168,11 +189,14 @@ textarea {
   font-size: 1rem;
   width: 100%;
 }
+.contact-right input ,textarea{
+  border: 1px solid rgb(208, 208, 218);
+}
 #msg {
   height: 8rem;
 }
 .send {
-  width: 40%;
+  width: 32%;
   margin: 1rem 1rem;
   background-color: #1579e6;
 }
@@ -184,8 +208,12 @@ strong {
   color: red;
 }
 .map-container {
+  z-index: -1;
   width: 100%;
-  height: 80vh;
+  height:80vh;
+  position: relative;
+  top: -88px;
+  margin-bottom: -86px;
 }
 .map-container iframe {
   width: 100%;
@@ -205,8 +233,8 @@ strong {
 }
 .popularity {
   letter-spacing: 2px;
-  line-height: 1.25em;
-  font-size: 0.72rem;
+  line-height: 16.25px;
+  font-size: 13px;
   font-family: "Poppins";
   font-weight: 600;
 }

@@ -6,7 +6,7 @@ body{
 }
 .hero-header {
     height: 880px;
-    background-image: url(/images/main-background.png);
+    background-image: url(images/main-background.png);
     background-position: bottom right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ body{
   }
 
   .subscribe {
-    background-image:url(/images/main-background-flip.png);
+    background-image:url(images/main-background-flip.png);
     background-position: bottom left;
     height: 500px;
     position: relative;
